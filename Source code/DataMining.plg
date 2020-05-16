@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DataMining - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Pouya\LOCALS~1\Temp\RSP92A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/DataMining.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Pouya\LOCALS~1\Temp\RSP92A.tmp" 
+Creating temporary file "C:\DOCUME~1\Pouya\LOCALS~1\Temp\RSP92B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DataMining.pdb" /debug /machine:I386 /out:"Debug/DataMining.exe" /pdbtype:sept 
+".\Debug\Main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Pouya\LOCALS~1\Temp\RSP92B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(58) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(184) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(198) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(218) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(228) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(229) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(263) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(282) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(309) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(317) : warning C4018: '<=' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(329) : warning C4018: '<=' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(275) : warning C4101: 'Value' : unreferenced local variable
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(274) : warning C4101: 'ch' : unreferenced local variable
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(275) : warning C4101: 'm' : unreferenced local variable
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(430) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(424) : warning C4101: 'Pos' : unreferenced local variable
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(458) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(504) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(507) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(564) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(567) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(579) : warning C4018: '<' : signed/unsigned mismatch
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(632) : warning C4101: 'Count' : unreferenced local variable
+F:\Visual C++ Projects\Data Mining 2\Source\DataMining\Main.cpp(101) : warning C4715: 'MinMaxRange' : not all control paths return a value
+Linking...
+Debug/DataMining.exe : warning LNK4084: total image size 1032384512 exceeds max (268435456); image may not run
+
+
+
+<h3>Results</h3>
+DataMining.exe - 0 error(s), 25 warning(s)
+</pre>
+</body>
+</html>
